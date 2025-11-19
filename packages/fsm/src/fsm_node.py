@@ -5,7 +5,7 @@ import rospy
 from duckietown_msgs.msg import BoolStamped, FSMState
 from duckietown_msgs.srv import SetFSMState, SetFSMStateResponse, ChangePattern
 from std_srvs.srv import SetBool
-from std_msgs.msg import String
+from std_msgs.msg import String 
 
 
 class FSMNode:
